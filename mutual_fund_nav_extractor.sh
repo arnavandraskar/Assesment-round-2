@@ -14,3 +14,4 @@ awk -F ';' '{gsub(/,/, "|", $4); if ($4 != "") print $4 "," $5}' navall.txt > ou
 
 # Print success message
 echo "Scheme Name and Asset Value fields extracted and saved in output.csv"
+
